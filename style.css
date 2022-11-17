@@ -365,7 +365,9 @@ a:hover {
 .citationTitle {
     font-size: 20px;
 }
-
+.text-center {
+    text-align: center;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -442,6 +444,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    background-color:#0A0A0A;
 }
 
 .mg-lg {
@@ -655,7 +658,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 600;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -681,7 +684,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -696,7 +699,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #1A1A1A;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -714,7 +717,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 700;
     color:#DF8F6A!important;
@@ -778,18 +781,26 @@ h4 {
     background-color: #F3976C;
 }
 
+.bgc-lightgray {
+    background-color: #C7C7C7;
+}
+
 .tc-white {
-    color: #575757;
+    color: #000000;
+}
+
+.margin-title {
+    margin-right: 102px;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #030303;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000000;
 }
 
 .ltc-white {
