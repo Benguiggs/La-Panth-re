@@ -543,6 +543,13 @@ button {
     box-shadow: none;
 }
 
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: left;
+}
+
 .scrollToTop {
     width: 40px;
     height: 40px;
