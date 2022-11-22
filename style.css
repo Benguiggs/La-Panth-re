@@ -294,8 +294,8 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
-    margin: 0 5px 0 0;
+    max-height: 40px;
+    margin: 0px 100px 0 0;
     display: inline;
 }
 
@@ -374,7 +374,7 @@ flex-direction: row;
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 450px) {
     .bloc {
         text-align: center;
         justify-content: center;
@@ -800,7 +800,7 @@ h4 {
 }
 
 .tc-white {
-    color: #000000;
+    color: #FFFFFF;
 }
 
 .tc-title-black {
