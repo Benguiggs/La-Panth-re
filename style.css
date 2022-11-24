@@ -381,9 +381,10 @@ a:hover {
     }
 
     .site-navigation {
+        padding-right: 10px;
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: left;
         justify-content: center;
     }
 
@@ -393,16 +394,18 @@ a:hover {
         display: inline;
     }
 
+.nav > li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
     .nav>li .dropdown-menu a,
     .nav>li .dropdown-menu a:hover {
         color: #484848;
     }
 
-    .nav-invert .site-navigation {
-        left: 0;
-        right: 0;
-    }
-
+ 
     .nav-center {
         text-align: center;
     }
@@ -416,12 +419,6 @@ a:hover {
     .nav-center .nav>li {
         float: none;
         display: inline-block;
-    }
-
-    .nav>li>.dropdown a {
-        background: none !important;
-        display: block;
-        padding: 14px 15px;
     }
 
     nav .caret {
