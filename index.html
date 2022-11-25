@@ -1,5 +1,8 @@
 <!doctype html>
 <html lang="fr">
+	<!-- Analytics -->
+
+	<!-- Analytics END -->
 <head>
 	<meta charset="utf-8">
 	<meta name=”robots” content=”index,follow”>
@@ -16,8 +19,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
-
-
+<!--Script-->
 	<script src="./js/jquery-2.1.0.js"></script>
 	<script src="./js/bootstrap.js"></script>
 	<script src="./js/blocs.js"></script>
@@ -27,9 +29,6 @@
 	<title>La Panthère Agence Web Design</title>
 
 
-	<!-- Analytics -->
-
-	<!-- Analytics END -->
 
 </head>
 
@@ -38,7 +37,7 @@
 	<div class="page-container"></div>
 
 		<!-- Navbar -->
-		<div class="bloc bgc-white l-bloc " id="bloc-0">
+		<div class="bloc bgc-white l-bloc">
 			<div class="container bloc-sm">
 
 				<nav class="navbar row flexCentre" aria-label="navigation">
@@ -52,10 +51,10 @@
 								<a href="index.html">Accueil</a>
 							</li>
 							<li>
-								<a id="portefolio">Porte-folio</a>
+								<a href="#portefolio">Porte-folio</a>
 							</li>
 							<li>
-								<a id="reseaux-sociaux">Partenaire</a>
+								<a href="#sociaux">Partenaire</a>
 							</li>
 						</ol>
 					</nav>
@@ -64,8 +63,7 @@
 		
 
 		<!-- bloc-1-presentation -->
-		<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax"
-			id="bloc-1-hero">
+		<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax">
 			<div class="container bloc-lg">
 				<div class="row tight-width-whitespace">
 					<div class="col-sm-12">
@@ -75,8 +73,7 @@
 							Agence La Panthère
 						</h1>
 						<div class="text-center">
-							<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine"
-								id="cta-hero">Contact</a>
+							<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine">Contact</a>
 						</div>
 					</div>
 				</div>
@@ -85,7 +82,7 @@
 		<!-- bloc-1-presentation END -->
 		<main class="bloc-principal" aria-label="navigation"> 
 		<!-- bloc-2-services -->
-		<div class="bloc bgc-white l-bloc" id="bloc-2-services">
+		<div class="bloc bgc-white l-bloc">
 			<div class="container bloc-md">
 				<div class="row citationTitle">
 					<h2>L'agence La panthère est une agence de web design qui aide les entreprises a devenir attractives
@@ -142,8 +139,7 @@
 		<!-- bloc-2-services END -->
 
 		<!-- bloc-3-what-i-do -->
-		<div class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax"
-			id="bloc-3-what-i-do">
+		<div class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax">
 			<div class="container bloc-lg">
 				<div class="row tight-width-whitespace black-background">
 					<div class="col-sm-12">
@@ -167,14 +163,14 @@
 
 		<!-- bloc-4-portfolio -->
 
-		<div class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc">
+		<div class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="portefolio">
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="text-center citationTitle">
 						Nous travaillons avec beaucoup de clients, voici nos réalisations.
 						<div class="row tight-width-whitespace portfolio-row">
 							<div class="col-sm-6">
-								<a href="#" data-lightbox="img/book.webp" data-gallery-id="gallery-1"
+								<a href="#" data-lightbox="img/book.webp" data-gallery-id="portefolio"
 									data-caption="Refonte d'un site web pour un journal local"
 									data-frame="snapshot-lb"><img src="img/book.webp"
 										alt="photo de livre multicolore et empilés"
@@ -187,8 +183,7 @@
 								</p>
 							</div>
 							<div class="col-sm-6">
-								<a href="#" data-lightbox="img/photographe.webp" data-gallery-id="gallery-1"
-									data-caption="Création d'un site web pour photographes"
+								<a href="#" data-lightbox="img/photographe.webp" data-caption="Création d'un site web pour photographes"
 									data-frame="snapshot-lb"><img src="img/photographe.webp" class="img-responsive portfolio-thumb"
 										alt="photo d'une photographe en train de prendre une photo"></a>
 								<h3 class="mg-md text-center">
@@ -202,7 +197,7 @@
 						</div>
 						<div class="row tight-width-whitespace portfolio-row">
 							<div class="col-sm-6">
-								<a href="#" data-lightbox="img/materiel.webp" data-gallery-id="gallery-1"
+								<a href="#" data-lightbox="img/materiel.webp"
 									data-caption="Création d'un site internet pour un voyageur"
 									data-frame="snapshot-lb"><img src="img/materiel.webp" class="img-responsive portfolio-thumb"
 										alt="outillage d'un photograpge professionelle,objectifs,micros,drone,appareil photo,trepieds"></a>
@@ -215,7 +210,7 @@
 								</p>
 							</div>
 							<div class="col-sm-6">
-								<a href="#" data-lightbox="img/labtop.webp" data-gallery-id="gallery-1"
+								<a href="#" data-lightbox="img/labtop.webp"
 									data-caption="Conception d'un site pour une agence de mariage"
 									data-frame="snapshot-lb"><img src="img/labtop.webp" class="img-responsive portfolio-thumb"
 										alt="ordinateur et outillage de design et de creation"></a>
@@ -233,8 +228,7 @@
 				<!-- bloc-4-portfolio END -->
 
 				<!-- bloc-5-cta -->
-				<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper bloc-lg"
-					id="bloc-5-cta">
+				<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper bloc-lg">
 					<div class="container bloc-lg">
 						<div class="row flexCentre flexColumnCentre">
 							<h2 class="mg-md text-center bgc-lightgray tc-white bloc-lg">
@@ -251,16 +245,16 @@
 			</main>
 				<!-- Footer - bloc-8 -->
 	<footer aria-label=”contentinfo”>
-	<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8"></div>
-					<div class="container bloc-sm">
+	<div class="bloc bgc-atomic-tangerine d-bloc"></div>
+					<div class="container bloc-sm flexCentre">
 						<div class="row">
 							<div class="col-sm-12">
 								<p class="text-center tc-white">
 									Agence La Panthère - Agence web basée à Lyon.<br>
 								</p>
 								
-								<section aria-label="réseaux" id="#reseaux-sociaux"></section>
-								<div class="row row-no-gutters social">
+								<section aria-label="réseaux"></section>
+								<div class="row row-no-gutters social"  id="sociaux">
 									<div class="col-sm-3">
 										<div class="text-center">
 											<a class="social" href="https://twitter.com/?lang=fr">Twitter<span
